@@ -1,0 +1,82 @@
+@import url(normalize.css);
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Open+Sans:wght@400;600;700&family=Poppins:wght@700&display=swap');
+
+/* Header */
+
+
+body,html {
+  height: 100%;
+  margin: auto;
+  width: 100%;
+  overflow-x: hidden; 
+  scroll-behavior: smooth;
+  background-color: #FCEDDA;
+}
+
+.backGround {
+position: relative;
+opacity: 0.8;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+  background-image: url("./assets/library.jpg");
+  height: 50%;
+}
+.caption {
+  position: relative;
+  top: 25%;
+  width: 75%;
+  text-align: center;
+  color: #000;
+  background-color: #FCEDDA;
+  border: 1px;
+
+}
+
+.caption span.border {
+  background-color: #111;
+  background-color: transparent;
+  color: #EE4E34;
+  padding: 18px;
+  letter-spacing: 10px;
+  letter-spacing: 8px;
+  letter-spacing: 5px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  font-family: "Dancing",sans-serif;
+  font-size: 50px;
+  font-size: 60px;
+  font-size: 70px;
+  line-height: 178%;
+  line-height: 158%;
+}
+
+.btn {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Dancing", sans-serif;
+  font-style:normal;
+  color: silver;
+  background-color: #FCEDDA;
+  background-color: transparent;
+  width: fit-content;
+  position: absolute;
+  padding: 10px 250px 10px 100px;
+  padding: 10px 600px 10px 100px;
+  padding: 10px 100px 10px 100px;
+  text-align: start;
+  padding: 5px 25px 3px 25px;
+  left: 50%;
+  left: 45%;
+  top: 115%;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: rgba(24, 24, 24, 0.3);
+  transition-duration: 0.25s;
+  transition-delay: 0.15s;
+  
+  color: #ffffff;
+}
+
