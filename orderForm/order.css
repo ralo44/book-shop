@@ -72,6 +72,5 @@ fieldset {
 .error-msg {
   display: none;
   position: relative;
-  /* top: -13px; */
   color: red;
 }

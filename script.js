@@ -127,7 +127,8 @@ function getData(data) {
   };
 
   btnOrder.onclick = function () {
-    location.href = '/orderForm/order.html';
+    location.href = '/book-shop/orderForm/order.html';
+    // location.href = './book-shop/orderForm/order.html';
   };
 
 
