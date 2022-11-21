@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Open+Sans:wght@400;600;700&family=Poppins:wght@700&display=swap');
+
+body,
+html {
+  height: 100%;
+  margin: auto;
+  width: 100%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  background-color: #FCEDDA;
+}
+
+.link-btn{
+  padding: 10px 5px;
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+  margin-top: 20px;
+  font-family: "Dancing", sans-serif;
+  color: #EE4E34;
+}
+a-link {
+  font-family: "Dancing", sans-serif;
+  color: #EE4E34;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page {
+  padding: 100px 0 0 20px;
+  font-family: "Dancing", sans-serif;
+  font-size: 12px;
+
+}
+
+.order {
+  position: relative;
+  top: 25%;
+  width: 75%;
+  text-align: center;
+  color: #EE4E34;
+  background-color: #FCEDDA;
+  border: 1px;
+}
+
+
+.wrapper {
+  padding: 5px 2px;
+}
+
+.gifts {
+  padding: 10px 0px;
+}
+fieldset {
+  border-color: #EE4E34;
+
+}
+
+.btnSubmit {
+  padding: 10px 5px;
+
+}
+
+.error {
+  border-color: red;
+  border-radius: 4px;
+}
+
+.error-msg {
+  display: none;
+  position: relative;
+  /* top: -13px; */
+  color: red;
+}

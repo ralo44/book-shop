@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Order confirmation</title>
+    <link rel="stylesheet" href="./order.css" />
+</head>
+
+<body>
+    <button class="link-btn">
+        <a class="a-link" href="../index.html" >Back Catalog</a>
+    </button>
+    <section class="container">
+    <form name="form" class="page">
+        <h1 class="order">Order form</h1>
+
+        <div class="client">
+            <div class="wrapper">
+                <input type="text" name="name" placeholder="Name" required minlength="4" />
+                <span class="error-msg">*Name is invalid</span>
+            </div>
+            <div class="wrapper">
+                <input type="text" name="surname" placeholder="Surname" required minlength="5" />
+                <span class="error-msg">*Surname is invalid</span>
+            </div>
+            <div class="wrapper">
+                <input type="date" name="date" required />
+                <span class="error-msg">*Date is invalid</span>
+            </div>
+        </div>
+
+        <div class="address">
+            <div class="wrapper">
+                <input type="text" placeholder="Street" name="street" required minlength="5" />
+                <span class="error-msg">*Street is invalid</span>
+            </div>
+            <div class="wrapper">
+                <input type="text" placeholder="House number" name="house" required />
+                <span class="error-msg">*House number is invalid</span>
+            </div>
+            <div class="wrapper">
+                <input type="text" placeholder="Flat number" name="flat" required autocomplete="off" />
+                <span class="error-msg">*Flat number is invalid</span>
+            </div>
+        </div>
+
+        <div class="radio-btns">
+            <p>Choose the payment type:</p>
+            <label for="card"><input id="card" type="radio" name="payment" checked />Card</label>
+            <label for="cash"><input id="cash" type="radio" name="payment" />Cash</label>
+        </div>
+
+        <div class="gifts">
+            <fieldset>
+                <legend>Choose 2 gifts</legend>
+
+                <label for="">
+                    <input type="checkbox" name="gift" />Pack as a gift</label>
+                <label for="">
+                    <input type="checkbox" name="gift" />Add postcard</label><label for=""><input type="checkbox"
+                        name="gift" />2% discount to the next
+                    order</label>
+                <label for=""><input type="checkbox" name="gift" />Branded pen or pencil</label>
+            </fieldset>
+        </div>
+        <button id="submit" class="btnSubmit" type="submit" disabled>Complete</button><span id="invalid"></span>
+    </form>
+
+</section>
+    <script src="./order.js"></script>
+</body>
+
+</html>
